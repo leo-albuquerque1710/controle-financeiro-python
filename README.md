@@ -19,35 +19,6 @@ Aplicação de linha de comando desenvolvida em Python para registrar receitas e
 - SQLite (`sqlite3`, biblioteca padrão do Python)
 - SQL
 
-## Como executar
-
-1. Instale o Python 3.10 ou superior.
-2. Baixe ou clone este repositório.
-3. Abra o terminal na pasta do projeto.
-4. Execute:
-
-```bash
-python src/main.py
-```
-
-O banco `data/financeiro.db` será criado automaticamente na primeira execução.
-
-No Windows, se `python` não funcionar, tente `py src/main.py`.
-
-## Estrutura
-
-```text
-controle-financeiro-python/
-├── data/                 # Banco local criado automaticamente
-├── src/
-│   ├── database.py       # Conexão e operações SQL
-│   └── main.py           # Menu e interação com o usuário
-├── tests/
-│   └── test_database.py  # Testes automatizados básicos
-├── .gitignore
-└── README.md
-```
-
 ## Próximas melhorias planejadas
 
 - [ ] Editar movimentações.
